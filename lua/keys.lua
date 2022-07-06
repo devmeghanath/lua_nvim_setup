@@ -17,7 +17,7 @@ map('n', 'ff', ':Telescope find_files<CR>', {})
 --FloatTerminal
 --
 --
-map('n' , 'nt' , ':FloatermNew<CR>' ,{})
+map('n' , 'nt' , ':FloatermNew --height=0.6 --width=0.9<CR>' ,{})
 map('n' , 'ht' , ':FloatermToggle<CR>' , {})
 map('n' , 'tn' , ':FloatermNext<CR>' , {})
 map('n' , 'tp' , ':FloatermPrev<CR>' , {})
