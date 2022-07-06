@@ -2,7 +2,7 @@
 
 return require('packer').startup(function(use)
   -- [[ Plugins Go Here ]]
-  
+
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
@@ -15,6 +15,7 @@ return require('packer').startup(function(use)
     requires = 'kyazdani42/nvim-web-devicons'        -- filesystem icons
   }
   use 'voldikss/vim-floaterm'
+
   use 'tpope/vim-commentary'
   --[[coc]]
   use {'neoclide/coc.nvim', branch = 'release'}
@@ -22,6 +23,8 @@ return require('packer').startup(function(use)
   ---odoo extensions
   use 'SirVer/ultisnips'
   use 'akretion/vim-odoo-snippets'
+  ----whitespace trimmer
+  use 'ntpeters/vim-better-whitespace'
 
    -- [[ Theme ]]
   use { 'mhinz/vim-startify' }                       -- start screen
